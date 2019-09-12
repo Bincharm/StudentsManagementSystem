@@ -1,0 +1,25 @@
+Entities:
+1.	User
+    a.	Email
+    b.	Password
+    c.	Name
+    d.	Active
+    e.	role - many2many
+2.	Role
+    a.	Name
+3.	Course
+    a.	Name
+    b.	Trainer
+    c.	Assistant
+    d.	Lectures – one2many
+4.	Lecture
+    a.	Subject
+    b.	Date
+    c.	Course – many2one
+5.	StudentInLecture
+    a.	Student - user
+    b.	Lecture
+    c.	AttendanceType
+    d.	Comment
+6.	AttendanceType
+    a.	Name

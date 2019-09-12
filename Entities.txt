@@ -1,0 +1,14 @@
+Entities:
+	1) User
+		a. email
+		b. password
+		c. name
+		d. active
+		e. role - many2many
+	2) Role
+		a. 
+	3) Course
+	4) Lecture
+	5) StudentInLecture
+	6) AbsenseReason
+	7) 
